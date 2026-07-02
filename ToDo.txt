@@ -69,6 +69,13 @@ index
 
 
 
+
+
+
+
+
+
+
 bugs:
     cards refresh when navigating to play page, should only refresh when clicking play or clicking play again
 
