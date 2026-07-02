@@ -26,3 +26,4 @@ jobs:
             **/.github/**
           protocol: ftp
           port: 21
+          dangerous-clean-slate: true
