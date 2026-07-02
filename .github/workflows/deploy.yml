@@ -25,3 +25,4 @@ jobs:
             **/.git*
             **/.github/**
           protocol: ftp
+          port: 21
