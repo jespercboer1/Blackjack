@@ -24,3 +24,10 @@ jobs:
           exclude: |
             **/.git*
             **/.github/**
+          server: ftp.xtgrsandbox.nl
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          local-dir: ./
+          server-dir: /domains/xtgrsandbox.nl/public_html/Blackjack/
+          protocol: ftp
+          passive: true
