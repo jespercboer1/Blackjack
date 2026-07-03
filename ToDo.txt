@@ -30,7 +30,7 @@ Shop:
 
 Inventory:
     all cards
-        stylable with owned styles
+        stylable with owned styles 
 
 
 Stats:
@@ -80,3 +80,5 @@ bugs:
     cards refresh when navigating to play page, should only refresh when clicking play or clicking play again
 
     when not logged in, you always see the intro when you refresh or go back to the play page
+
+    numbers (money) don't round up and give very large decimals

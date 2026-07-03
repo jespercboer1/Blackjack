@@ -21,6 +21,7 @@ function setMoney(user) {
     if (moneyElement) {
         moneyElement.textContent = `$${user.money.toLocaleString()}`;
     }
+    localStorage.setItem("money", user.money);
 }
 
 function go(path) {
